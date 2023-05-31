@@ -1,9 +1,12 @@
-import React from 'react'
 import { Link } from 'react-router-dom'
+import { Navbar } from '../components';
 
 const Home = () => {
   return (
-    <Link to="/about">Hi</Link>
+    <>
+      <Navbar />
+      <Link to="/about">Hi</Link>
+    </>
   )
 }
 
