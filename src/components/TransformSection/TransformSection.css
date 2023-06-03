@@ -14,11 +14,27 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    padding: 0 15rem;
-    padding-right: 18rem;
+    /* padding: 0 10rem;
+    padding-right: 18rem; */
 }
 
 .transform-2 h1{
     font-size: 6rem;
     text-align: right;
+    line-height: 6rem;
+    width: 70%;
+}
+
+.transform-3{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.transform-3 > h3{
+    width: 22%;
+    word-spacing: 1rem;
+}
+
+.transform-3 > h3 span{
+    word-spacing: normal;
 }

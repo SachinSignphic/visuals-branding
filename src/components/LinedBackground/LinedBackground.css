@@ -1,0 +1,9 @@
+.lined-background{
+    border-top: 2px solid var(--blk-color);
+    border-bottom: 2px solid var(--blk-color);
+    position: relative;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 15rem
+}

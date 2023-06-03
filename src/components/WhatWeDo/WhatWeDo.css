@@ -1,0 +1,9 @@
+.what-we-do{
+    display: flex;
+    flex-direction: column;
+}
+
+.what-widget{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
