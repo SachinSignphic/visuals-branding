@@ -1,8 +1,12 @@
-import React from 'react'
+import { Footer, Navbar } from "../components"
 
 const Portfolio = () => {
   return (
-    <div>Portfolio</div>
+    <>
+      <Navbar />
+      <div>Portfolio</div>
+      <Footer />
+    </>
   )
 }
 

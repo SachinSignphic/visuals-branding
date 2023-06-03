@@ -35,6 +35,11 @@
   src: url('/fonts/Gilroy-Medium.ttf');
 }
 
+@font-face {
+  font-family: Gillroy Bold;
+  src: url('/fonts/Gilroy-Bold.ttf');
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -59,7 +64,8 @@
   --ff-gilroy-regular: 'Gillroy Regular', sans-serif;
   --ff-gilroy-ultralight: 'Gillroy Ultralight', sans-serif;
   --ff-gilroy-medium: 'Gillroy Medium', sans-serif;
-  --ff-gilroy-light: 'Gillroy TLight', sans-serif;
+  --ff-gilroy-light: 'Gillroy Light', sans-serif;
+  --ff-gilroy-bold: 'Gillroy Bold', sans-serif; 
   
   color-scheme: light dark;
 
@@ -74,6 +80,20 @@ body {
   width: 100%;
   min-width: 300px;
   min-height: 100vh;
+  background-color: #000;
+}
+
+/*colors*/
+.prm-color{
+  color: var(--prm-color);
+}
+
+.sec-color{
+  color: var(--sec-color);
+}
+
+.blk-color{
+  color: var(--blk-color);
 }
 
 /*font-family utility classes*/
@@ -100,8 +120,13 @@ body {
 .ff-gillroy-m{
   font-family: var(--ff-gilroy-medium);
 }
+
 .ff-gillroy-l{
   font-family: var(--ff-gilroy-light);
+}
+
+.ff-gillroy-b{
+  font-family: var(--ff-gilroy-bold);
 }
 
 /*font-sizes*/
@@ -170,27 +195,4 @@ body {
 
 a{
   text-decoration: none;
-}
-
-a:visited{
-  color: initial;
-}
-
-
-
-.btn-primary{
-  padding: var(--padding);
-  color: var(--sec-color);
-  border: 1px solid var(--prm-color);
-  background-color: var(--prm-color);
-}
-
-
-@media (prefers-color-scheme: light) {
-
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-
 }

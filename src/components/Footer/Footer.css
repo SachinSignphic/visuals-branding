@@ -1,0 +1,20 @@
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    padding: 3rem 7rem
+}
+
+.footer-logo img{
+    width: 3.8rem;
+    height: 3.8rem;
+}
+
+.copyrights{
+    color: var(--sec-color);
+}
+
+.copyrights span{
+    color: var(--blk-color);
+}

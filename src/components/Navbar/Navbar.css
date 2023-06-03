@@ -2,11 +2,57 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem;
+    padding: 2.3rem 7rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    backdrop-filter: blur(10px);
 }
 
 .nav-links{
     display: flex;
-    gap: 1rem;
+    gap: 4rem;
     align-items: center;
+    /* outline: 1px solid red; */
+}
+
+.nav-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    gap: 2rem
+}
+
+.nav-logo h2 span:nth-child(1){
+    text-transform: uppercase;
+    color: var(--sec-color)
+}
+
+.nav-logo h2 span:nth-child(2){
+    text-transform: uppercase;
+    color: var(--blk-color)
+}
+
+.nav-logo img{
+    width: 5rem;
+    height: 5rem;
+}
+
+.nav-link{
+    color: var(--sec-color);
+}
+
+.btn-primary{
+    padding: var(--padding) 2rem;
+    border: 1px solid var(--blk-color);
+    background-color: var(--blk-color);
+    border-radius: 0.1rem;
+}
+
+.btn-secondary{
+    padding: var(--padding) 2rem;
+    border: 1px solid var(--blk-color);
+    border-radius: 0.1rem;
 }

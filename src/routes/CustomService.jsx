@@ -1,8 +1,12 @@
-import React from 'react'
+import { Footer, Navbar } from "../components"
 
 const CustomService = () => {
   return (
-    <div>CustomService</div>
+    <>
+      <Navbar />
+      <div>CustomService</div>
+      <Footer />
+    </>
   )
 }
 

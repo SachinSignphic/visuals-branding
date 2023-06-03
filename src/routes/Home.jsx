@@ -1,11 +1,15 @@
-import { Link } from 'react-router-dom'
-import { Navbar } from '../components';
+// import { Link } from 'react-router-dom'
+import { Navbar, Hero, Footer, LinedBackground, TransformSection } from '../components';
 
 const Home = () => {
   return (
     <>
       <Navbar />
-      <Link to="/about">Hi</Link>
+      <Hero />
+      <LinedBackground>
+        <TransformSection />
+      </LinedBackground>
+      <Footer />
     </>
   )
 }
