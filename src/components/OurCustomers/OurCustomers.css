@@ -1,0 +1,12 @@
+.creators{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem
+}
+
+.creators-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+}

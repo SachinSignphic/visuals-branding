@@ -1,5 +1,5 @@
 // import { Link } from 'react-router-dom'
-import { Navbar, Hero, Footer, LinedBackground, TransformSection, WhatWeDo } from '../components';
+import { Navbar, Hero, Footer, LinedBackground, TransformSection, WhatWeDo, OurCustomers } from '../components';
 
 const Home = () => {
   return (
@@ -9,6 +9,7 @@ const Home = () => {
       <LinedBackground>
         <TransformSection />
         <WhatWeDo />
+        <OurCustomers />
       </LinedBackground>
       <Footer />
     </>

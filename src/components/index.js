@@ -5,5 +5,7 @@ import LinedBackground from "./LinedBackground/LinedBackground";
 import TransformSection from "./TransformSection/TransformSection";
 import ScrollButton from "./ScrollButton/ScrollButton";
 import WhatWeDo from "./WhatWeDo/WhatWeDo";
+import OurCustomers from "./OurCustomers/OurCustomers";
+import CarsouselCards from "./CarouselCards/CarsouselCards";
 
-export { Navbar, Hero, Footer, LinedBackground, TransformSection, ScrollButton, WhatWeDo };
+export { Navbar, Hero, Footer, LinedBackground, TransformSection, ScrollButton, WhatWeDo, OurCustomers, CarsouselCards };
