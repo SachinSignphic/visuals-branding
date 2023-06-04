@@ -4,6 +4,18 @@ import "./LinedBackground.css";
 const LinedBackground = ({ children }) => {
     return (
         <div className="lined-background">
+            <div className="line-wrapper">
+                <div className="line"></div>
+                <div className="line"></div>
+                <div className="line"></div>
+                <div className="line"></div>
+                <div className="line"></div>
+                <div className="line"></div>
+                <div className="line"></div>
+                <div className="line"></div>
+                <div className="line"></div>
+                <div className="line"></div>
+            </div>
             { children }
         </div>
     )

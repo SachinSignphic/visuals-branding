@@ -6,8 +6,8 @@
 
 .what-widget{
     display: grid;
-    grid-template-columns: 0.7fr 2.4fr;
-    min-height: 70vh;
+    grid-template-columns: 0.9fr 2.1fr;
+    /* min-height: 70vh; */
     /* outline: 1px solid red; */
 }
 
