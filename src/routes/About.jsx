@@ -1,10 +1,12 @@
-import { Navbar, Footer } from "../components"
+import { Navbar, Footer, LinedBackground, AboutSection } from "../components"
 
 const About = () => {
   return (
     <>
       <Navbar />
-      <div>About</div>
+        <LinedBackground>
+          <AboutSection />
+        </LinedBackground>
       <Footer />
     </>
   )

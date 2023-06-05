@@ -1,0 +1,17 @@
+.about-section{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.about-header{
+    display: grid;
+    grid-template-columns: 0.6fr 2fr;
+    align-items: center;
+    font-size: 3rem;
+}
+
+.about-content{
+    font-size: 3.7rem;
+    line-height: 6.4rem;
+}

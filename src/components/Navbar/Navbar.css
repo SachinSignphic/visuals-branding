@@ -33,6 +33,10 @@ nav{
     color: var(--sec-color)
 }
 
+nav > button{
+    display: none;
+}
+
 .nav-logo h2 span:nth-child(2){
     text-transform: uppercase;
     color: var(--blk-color)
@@ -58,4 +62,19 @@ nav{
     padding: var(--padding) 2rem;
     border: 1px solid var(--blk-color);
     border-radius: 0.1rem;
+}
+
+.nav-links-hidden{
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .nav-links{
+        background-color: #000;
+        /* width: 100%;
+        height: 100%; */
+        position: absolute;
+        right: 0;
+        flex-direction: column;
+    }
 }

@@ -10,5 +10,6 @@ import CarouselCards from "./CarouselCards/CarsouselCards";
 import PromptSection from "./PromptSection/PromptSection";
 import TeamSection from "./TeamSection/TeamSection";
 import TeamCard from "./TeamCard/TeamCard";
+import AboutSection from "./AboutSection/AboutSection";
 
-export { Navbar, Hero, Footer, LinedBackground, TransformSection, ScrollButton, WhatWeDo, OurCustomers, CarouselCards, PromptSection, TeamSection, TeamCard};
+export { Navbar, Hero, Footer, LinedBackground, TransformSection, ScrollButton, WhatWeDo, OurCustomers, CarouselCards, PromptSection, TeamSection, TeamCard, AboutSection};
