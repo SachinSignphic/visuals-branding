@@ -7,7 +7,9 @@ nav{
     width: 100%;
     top: 0;
     left: 0;
-    backdrop-filter: blur(10px);
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 30%, rgba(0,0,0,0.2) 90%, rgba(0,0,0,0) 100%);
+    /* outline: 1px solid red; */
     z-index: 10;
 }
 

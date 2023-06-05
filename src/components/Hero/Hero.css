@@ -5,7 +5,9 @@
     flex-direction: column;
     width: 100%;
     min-height: 100vh; 
-    margin-bottom: 6rem;
+    padding: 4rem;
+    gap: 3rem;
+    /* margin-bottom: 6rem; */
 }
 
 .hero h2 span{

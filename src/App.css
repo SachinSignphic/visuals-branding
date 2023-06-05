@@ -1,8 +1,13 @@
+html{
+  scroll-padding-top: 16rem;
+  scroll-behavior: smooth;
+}
 #root {
   width: 100%;
+  margin: auto;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   padding: 0 6rem;
-  /* gap: 10rem */
+  max-width: 1920px;
 }

@@ -4,7 +4,7 @@ import "./LinedBackground.css";
 const LinedBackground = ({ children }) => {
     return (
         <div className="lined-background">
-            <div className="line-wrapper">
+            <div className="line-wrapper" style={{borderRight: "1px solid silver"}}>
                 <div className="line"></div>
                 <div className="line"></div>
                 <div className="line"></div>

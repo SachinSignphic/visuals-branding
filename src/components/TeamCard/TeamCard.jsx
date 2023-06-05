@@ -6,8 +6,8 @@ const TeamCard = ({imgSrc, name, designation}) => {
     <div className="team-card">
         <img src={imgSrc} alt="" />
         <div>
-            <h3 className="ff-gillroy-m fs-2s sec-color" >{name}</h3>
-            <h4 className="ff-gillroy-m fs-s sec-color ">{designation}</h4>
+            <h3 className="ff-gillroy-m fs-2m sec-color" >{name}</h3>
+            <h4 className="ff-gillroy-m fs-m sec-color ">{designation}</h4>
         </div>
     </div>
   )

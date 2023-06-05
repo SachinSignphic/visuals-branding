@@ -6,7 +6,7 @@
 
 .team-header{
     display: grid;
-    grid-template-columns: 1.5fr 2.6fr 0.5fr;
+    grid-template-columns: 2fr 2fr 0.5fr;
     align-items: center;
     grid-gap: 2rem;
 }

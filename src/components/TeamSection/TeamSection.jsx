@@ -4,9 +4,9 @@ import teamData from "../../assets/teamData";
 
 const TeamSection = () => {
   return (
-    <div className="team-section">
+    <div className="team-section" id="team-section">
         <div className="team-header">
-            <h1 className="ff-almeria-r fs-3l sec-color">Meet my <span className="blk-color">Team</span>.</h1>
+            <h1 className="ff-almeria-r sec-color" style={{fontSize: "5.7rem"}}>Meet my <span className="blk-color">Team</span>.</h1>
             <hr />
             <ScrollButton />
         </div>
