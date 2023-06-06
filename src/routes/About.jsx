@@ -1,4 +1,4 @@
-import { Navbar, Footer, LinedBackground, AboutSection } from "../components"
+import { Navbar, Footer, LinedBackground, AboutSection, WhatWeDo, TeamSection, PromptSection } from "../components"
 
 const About = () => {
   return (
@@ -6,6 +6,9 @@ const About = () => {
       <Navbar />
         <LinedBackground>
           <AboutSection />
+          <WhatWeDo />
+          <TeamSection />
+          <PromptSection />
         </LinedBackground>
       <Footer />
     </>
