@@ -1,0 +1,9 @@
+.custom-service-header{
+    display: grid;
+    grid-template-columns: 1.5fr 1.05fr;
+    align-items: center;
+}
+
+.custom-service-header h1{
+    font-size: 7rem;
+}

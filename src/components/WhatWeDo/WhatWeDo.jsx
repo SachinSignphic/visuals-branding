@@ -3,7 +3,8 @@ import { Tab } from '@headlessui/react';
 import { useState } from "react";
 import "./WhatWeDo.css";
 
-const WhatWeDo = () => {
+// eslint-disable-next-line react/prop-types
+const WhatWeDo = ({scrollTo}) => {
   const [selectedIndex, setSelectedIndex] = useState(0);
 
   return (
@@ -11,7 +12,7 @@ const WhatWeDo = () => {
         <h1 className="ff-almeria-r sec-color" style={{fontSize: "4.5rem"}}>What we <span className="blk-color">do</span>.</h1>
         <div className="what-widget">
             <div className="scroll-button-container">
-                <ScrollButton scrollTo="#creators"/>
+                <ScrollButton scrollTo={scrollTo} />
             </div>
             <div className="widget-tab">
               <Tab.Group vertical selectedIndex={selectedIndex} onChange={setSelectedIndex}>

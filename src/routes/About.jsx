@@ -6,9 +6,9 @@ const About = () => {
       <Navbar />
         <LinedBackground>
           <AboutSection />
-          <WhatWeDo />
-          <TeamSection />
-          <PromptSection />
+          <WhatWeDo scrollTo="#team-section" />
+          <TeamSection scrollTo="#prompt-section" />
+          <PromptSection scrollTo="#footer" />
         </LinedBackground>
       <Footer />
     </>

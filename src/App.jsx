@@ -5,6 +5,7 @@ import CustomService from './routes/CustomService'
 import Portfolio from './routes/Portfolio'
 import About from './routes/About'
 import { Routes, Route } from 'react-router-dom'
+import Consultation from './routes/Consultation'
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
         <Route path='/about' element={<About />} />
         <Route path='/portfolio' element={<Portfolio />} />
         <Route path='/custom-service' element={<CustomService />} />
+        <Route path='/free-consultation' element={ <Consultation /> } />
       </Routes>
     </>
   )

@@ -7,11 +7,11 @@ const Home = () => {
       <Navbar />
       <Hero />
       <LinedBackground>
-        <TransformSection />
-        <WhatWeDo />
-        <OurCustomers />
-        <PromptSection />
-        <TeamSection />
+        <TransformSection scrollTo="#what-we-do" />
+        <WhatWeDo scrollTo="#creators" />
+        <OurCustomers scrollTo="#prompt-section"/>
+        <PromptSection scrollTo="#team-section"/>
+        <TeamSection scrollTo="#footer" />
       </LinedBackground>
       <Footer />
     </>

@@ -11,5 +11,9 @@ import PromptSection from "./PromptSection/PromptSection";
 import TeamSection from "./TeamSection/TeamSection";
 import TeamCard from "./TeamCard/TeamCard";
 import AboutSection from "./AboutSection/AboutSection";
+import ConsultationSection from "./ConsultationSection/ConsultationSection";
+import CustomServiceHeader from "./CustomServiceHeader/CustomServiceHeader";
+import ServiceSectionLTR from "./ServiceSection/ServiceSectionLTR";
+import ServiceSectionRTL from "./ServiceSection/ServiceSectionRTL";
 
-export { Navbar, Hero, Footer, LinedBackground, TransformSection, ScrollButton, WhatWeDo, OurCustomers, CarouselCards, PromptSection, TeamSection, TeamCard, AboutSection};
+export { Navbar, Hero, Footer, LinedBackground, TransformSection, ScrollButton, WhatWeDo, OurCustomers, CarouselCards, PromptSection, TeamSection, TeamCard, AboutSection, ConsultationSection, CustomServiceHeader, ServiceSectionRTL, ServiceSectionLTR };

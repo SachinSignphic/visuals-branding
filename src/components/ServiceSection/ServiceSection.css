@@ -1,0 +1,10 @@
+.service-section-rtl{
+    display: flex;
+    flex-direction: column;
+}
+
+.service-section-header{
+    display: grid;
+    grid-template-columns: 1fr 2fr 0.5fr;
+    align-items: center;
+}

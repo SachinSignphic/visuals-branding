@@ -1,0 +1,53 @@
+.consultation-section{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 9rem 0;
+    grid-gap: 2rem;
+    /* place-items: center; */
+}
+
+.consultation-info{
+    display: flex;
+    /* align-items: center; */
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 2rem
+}
+
+.consultation-info h1{
+    font-size: 6rem;
+}
+
+.consultation-info p{
+    max-width: 50%;
+    line-height: 40px;
+}
+
+.consultation-form-wrapper{
+    display: flex;
+    width: 100%;
+}
+
+.consultation-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: end;
+    width: 100%;
+    gap: 8rem
+}
+
+.consultation-form input{
+    font-size: 2.8rem;
+    background-color: transparent;
+    border: 0px;
+    border-bottom: 1px solid var(--sec-color);
+    width: 100%;
+    transition: border-bottom 0.2s ease;
+}
+
+.consultation-form input:focus{
+    outline: none;
+    border-bottom: 1px solid white;
+}

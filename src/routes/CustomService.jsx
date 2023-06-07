@@ -1,10 +1,17 @@
-import { Footer, Navbar } from "../components"
+import { Footer, LinedBackground, Navbar, CustomServiceHeader, ServiceSectionRTL } from "../components"
 
 const CustomService = () => {
   return (
     <>
       <Navbar />
-      <div>CustomService</div>
+      <LinedBackground style={{marginTop: "10rem"}}>
+        <CustomServiceHeader />
+      {/* <ServiceSectionLTR /> */}
+      <ServiceSectionRTL heading="Branding" subheading="Our Pack Builder" desc="bruh" />
+      {/* <ServiceSectionLTR /> */}
+      {/* <ServiceSectionRTL /> */}
+      {/* <ServiceSectionLTR /> */}
+      </LinedBackground>
       <Footer />
     </>
   )
