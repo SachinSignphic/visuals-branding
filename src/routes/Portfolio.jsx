@@ -1,10 +1,12 @@
-import { Footer, Navbar } from "../components"
+import { Footer, LinedBackground, Navbar, PortfolioMain } from "../components"
 
 const Portfolio = () => {
   return (
     <>
       <Navbar />
-      <div>Portfolio</div>
+      <LinedBackground style={{marginTop: "10rem"}}>
+        <PortfolioMain />
+      </LinedBackground>
       <Footer />
     </>
   )

@@ -18,6 +18,7 @@ const ServiceSectionLTR = ({ heading, purpleText, whiteText, pMarkup }) => {
             <img src={serviceSectionPlaceholder} alt="Placeholder" />
             <img src={serviceSectionPlaceholder} alt="Placeholder" />
           </div>
+          <hr className="vr" />
           <div className="service-section-details">
             <h1 className="ff-almeria-r sec-color">{whiteText} <span className="blk-color">{purpleText}</span> !</h1>
             {pMarkup}

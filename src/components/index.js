@@ -15,5 +15,26 @@ import ConsultationSection from "./ConsultationSection/ConsultationSection";
 import CustomServiceHeader from "./CustomServiceHeader/CustomServiceHeader";
 import ServiceSectionLTR from "./ServiceSection/ServiceSectionLTR";
 import ServiceSectionRTL from "./ServiceSection/ServiceSectionRTL";
+import PortfolioMain from "./PortfolioMain/PortfolioMain";
+import SlideContent from "./SlideContent/SlideContent";
 
-export { Navbar, Hero, Footer, LinedBackground, TransformSection, ScrollButton, WhatWeDo, OurCustomers, CarouselCards, PromptSection, TeamSection, TeamCard, AboutSection, ConsultationSection, CustomServiceHeader, ServiceSectionRTL, ServiceSectionLTR };
+export { Navbar, 
+    Hero, 
+    Footer, 
+    LinedBackground, 
+    TransformSection,
+    ScrollButton, 
+    WhatWeDo, 
+    OurCustomers, 
+    CarouselCards, 
+    PromptSection, 
+    TeamSection, 
+    TeamCard, 
+    AboutSection, 
+    ConsultationSection, 
+    CustomServiceHeader, 
+    ServiceSectionRTL, 
+    ServiceSectionLTR,
+    PortfolioMain,
+    SlideContent
+};

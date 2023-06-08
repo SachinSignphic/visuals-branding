@@ -13,7 +13,7 @@ const Navbar = () => {
             </Link>
             <button onClick={() => setOpenMenu(!openMenu)}>HAM</button>
             <div className="nav-links nav-links">
-                <Link to='/about' className="nav-link ff-gillroy-u fs-3s">About</Link>
+                <Link to='/about#about' className="nav-link ff-gillroy-u fs-3s">About</Link>
                 <Link to='/portfolio' className="nav-link ff-gillroy-u fs-3s">Portfolio</Link>
                 <Link to='/custom-service' className="nav-link ff-gillroy-b btn-secondary">Custom Service</Link>
                 <Link to='/contact' className="nav-link ff-gillroy-b btn-primary">Contact Us</Link>

@@ -12,7 +12,7 @@ const WhatWeDo = ({scrollTo}) => {
         <h1 className="ff-almeria-r sec-color" style={{fontSize: "4.5rem"}}>What we <span className="blk-color">do</span>.</h1>
         <div className="what-widget">
             <div className="scroll-button-container">
-                <ScrollButton scrollTo={scrollTo} />
+                <ScrollButton scrollTo={scrollTo} style={{marginRight: "2.5rem"}} />
             </div>
             <div className="widget-tab">
               <Tab.Group vertical selectedIndex={selectedIndex} onChange={setSelectedIndex}>

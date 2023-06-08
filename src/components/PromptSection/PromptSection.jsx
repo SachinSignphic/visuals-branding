@@ -4,12 +4,12 @@ import arrowRight from "/arrow-right.svg";
 import { Link } from "react-router-dom";
 
 // eslint-disable-next-line react/prop-types
-const PromptSection = ({scrollTo}) => {
+const PromptSection = ({scrollTo, style}) => {
   return (
     <div className="prompt-section" id="prompt-section">
         <div className="prompt-header">
             <h1 className="ff-almeria-r sec-color" style={{fontWeight: "bold", fontSize: "5.7rem"}}>Ready to transform your <span className="blk-color">brand </span>?</h1>
-            <ScrollButton scrollTo={scrollTo} />
+            <ScrollButton scrollTo={scrollTo} style={style} />
         </div>
         <hr />
         <div className="prompt-links">

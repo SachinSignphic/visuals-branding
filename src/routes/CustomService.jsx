@@ -4,7 +4,7 @@ const CustomService = () => {
   return (
     <>
       <Navbar />
-      <LinedBackground style={{marginTop: "10rem"}}>
+      <LinedBackground style={{marginTop: "10rem", gap: "10rem"}}>
         <CustomServiceHeader />
       {/* <ServiceSectionLTR /> */}
       <ServiceSectionRTL 
@@ -14,40 +14,40 @@ const CustomService = () => {
         pMarkup={
           <p className="ff-gillroy-l fs-2m sec-color">
             We&lsquo;ll refine this list and your quote once we receive the order and provide suggestions of how you can best use your resources.
-                1st things first, your brand. Whether you&lsquo;re looking for a new logo design or a full brand guide we have you covered.
+                <br /><br />1st things first, your brand. Whether you&lsquo;re looking for a new logo design or a full brand guide we have you covered.
           </p>
         }   
       />
       <ServiceSectionLTR 
-        heading="Branding" 
+        heading="Steam Overlays Package" 
         whiteText="Our" 
-        purpleText="Pack Builder" 
+        purpleText="Overlays" 
         pMarkup={
           <p className="ff-gillroy-l fs-2m sec-color">
             We&lsquo;ll refine this list and your quote once we receive the order and provide suggestions of how you can best use your resources.
-                1st things first, your brand. Whether you&lsquo;re looking for a new logo design or a full brand guide we have you covered.
+                <br /><br />1st things first, your brand. Whether you&lsquo;re looking for a new logo design or a full brand guide we have you covered.
           </p>
         }   
       />
       <ServiceSectionRTL 
-        heading="Branding" 
+        heading="Custom Widgets" 
         whiteText="Our" 
-        purpleText="Pack Builder" 
+        purpleText="Widgets" 
         pMarkup={
           <p className="ff-gillroy-l fs-2m sec-color">
             We&lsquo;ll refine this list and your quote once we receive the order and provide suggestions of how you can best use your resources.
-                1st things first, your brand. Whether you&lsquo;re looking for a new logo design or a full brand guide we have you covered.
+                <br /><br />1st things first, your brand. Whether you&lsquo;re looking for a new logo design or a full brand guide we have you covered.
           </p>
         }   
       />
       <ServiceSectionLTR 
-        heading="Branding" 
+        heading="Motion Design & Animation" 
         whiteText="Our" 
-        purpleText="Pack Builder" 
+        purpleText="Motion Package" 
         pMarkup={
           <p className="ff-gillroy-l fs-2m sec-color">
             We&lsquo;ll refine this list and your quote once we receive the order and provide suggestions of how you can best use your resources.
-                1st things first, your brand. Whether you&lsquo;re looking for a new logo design or a full brand guide we have you covered.
+                <br /><br />1st things first, your brand. Whether you&lsquo;re looking for a new logo design or a full brand guide we have you covered.
           </p>
         }   
       />

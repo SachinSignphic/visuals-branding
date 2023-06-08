@@ -8,7 +8,7 @@ const About = () => {
           <AboutSection />
           <WhatWeDo scrollTo="#team-section" />
           <TeamSection scrollTo="#prompt-section" />
-          <PromptSection scrollTo="#footer" />
+          <PromptSection scrollTo="#about" style={{marginRight: "5.3rem", transform: "rotate(180deg)"}}/>
         </LinedBackground>
       <Footer />
     </>

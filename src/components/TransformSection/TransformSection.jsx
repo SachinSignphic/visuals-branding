@@ -2,7 +2,7 @@
 import { ScrollButton } from "../";
 import "./TransformSection.css";
 
-const TransformSection = ({scrollTo}) => {
+const TransformSection = ({scrollTo, style}) => {
   return (
       <div className="transform" id="transform">
           <div className="transform-text-container transform-1">
@@ -13,7 +13,7 @@ const TransformSection = ({scrollTo}) => {
           </div>
           <div className="transform-text-container transform-3">
               <h3 className="ff-gillroy-l sec-color fs-l">Make a statement with <br /> <span className="blk-color">visuals branding</span> production</h3>
-            <ScrollButton scrollTo={scrollTo} style={{position: "absolute", left: "7rem"}} />
+            <ScrollButton scrollTo={scrollTo} style={style} />
           </div>
       </div>
   )

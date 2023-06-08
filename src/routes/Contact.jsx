@@ -1,10 +1,14 @@
-import { Footer, Navbar } from '../components'
+import { Footer, Navbar, LinedBackground, ConsultationSection } from '../components'
 
 const Contact = () => {
   return (
     <>
       <Navbar />
-      <div>Contact</div>
+      <Navbar />
+      <LinedBackground style={{marginTop: "10rem"}}>
+        <ConsultationSection />
+      </LinedBackground>
+      <Footer />
       <Footer />
     </>
   )

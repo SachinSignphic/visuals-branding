@@ -2,7 +2,7 @@ import "./AboutSection.css";
 
 const AboutSection = () => {
   return (
-    <div className="about-section">
+    <div className="about-section" id="about">
         <div className="about-header">
             <h1 className="ff-almeria-r sec-color">About</h1>
             <hr />
