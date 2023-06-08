@@ -1,8 +1,9 @@
 import "./ServiceSection.css";
 import arrowRight from "/arrow-right.svg";
+import serviceSectionPlaceholder from "/service-section-placeholder.png";
 
 // eslint-disable-next-line react/prop-types
-const ServiceSectionRTL = ({ heading, subheading, desc}) => {
+const ServiceSectionRTL = ({ heading, purpleText, whiteText, pMarkup }) => {
   return (
     <div className="service-section-rtl">
         <div className="service-section-header">
@@ -11,6 +12,16 @@ const ServiceSectionRTL = ({ heading, subheading, desc}) => {
             <button className="circle-right">
                     <img src={arrowRight} alt="Free consultation" />
             </button>
+        </div>
+        <div className="service-section-content">
+          <div className="service-section-images">
+            <img src={serviceSectionPlaceholder} alt="Placeholder" />
+            <img src={serviceSectionPlaceholder} alt="Placeholder" />
+          </div>
+          <div className="service-section-details">
+            <h1 className="ff-almeria-r sec-color">{whiteText} <span className="blk-color">{purpleText}</span> !</h1>
+            {pMarkup}
+          </div>
         </div>
     </div>
   )
