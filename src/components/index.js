@@ -17,6 +17,7 @@ import ServiceSectionLTR from "./ServiceSection/ServiceSectionLTR";
 import ServiceSectionRTL from "./ServiceSection/ServiceSectionRTL";
 import PortfolioMain from "./PortfolioMain/PortfolioMain";
 import SlideContent from "./SlideContent/SlideContent";
+import PortfolioCards from "./PortfolioCards/PortfolioCards";
 
 export { Navbar, 
     Hero, 
@@ -36,5 +37,6 @@ export { Navbar,
     ServiceSectionRTL, 
     ServiceSectionLTR,
     PortfolioMain,
-    SlideContent
+    SlideContent,
+    PortfolioCards
 };

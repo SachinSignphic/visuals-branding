@@ -5,7 +5,7 @@ const CustomService = () => {
     <>
       <Navbar />
       <LinedBackground style={{marginTop: "10rem", gap: "10rem"}}>
-        <CustomServiceHeader />
+        <CustomServiceHeader purpleText="Service" whiteText="Select the "/>
       {/* <ServiceSectionLTR /> */}
       <ServiceSectionRTL 
         heading="Branding" 

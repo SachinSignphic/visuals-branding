@@ -1,39 +1,39 @@
 import "./PortfolioMain.css";
 import { SlideContent } from "../";
-import { FreeMode, Navigation, Pagination} from "swiper";
-import { Swiper, SwiperSlide, useSwiper } from "swiper/react";
+import { Autoplay, Navigation, Pagination } from "swiper";
+import { Swiper, SwiperSlide } from "swiper/react";
+
 import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/autoplay"
+
+import carouselData from "../../assets/carouselData";
 
 const PortfolioMain = () => {
-  const swiper = useSwiper();
 
   return (
     <div className="carousel-container">
         <Swiper
-          modules={[Navigation, Pagination, FreeMode]}
+          modules={[Navigation, Pagination, Autoplay]}
           spaceBetween={30}
           slidesPerView="auto"
+          loop = {true}
+          autoplay = {{
+            delay: 2000,
+            pauseOnMouseEnter: true,
+            disableOnInteraction: false,
+          }}
+          className="swiper-slider"
         >
-          <SwiperSlide className="res-slide">
-            <SlideContent />
-          </SwiperSlide>
-          <SwiperSlide className="res-slide">
-            <h1 className="sec-color">Hii</h1>
-          </SwiperSlide>
-          <SwiperSlide className="res-slide">
-            <h1 className="sec-color">Hii</h1>
-          </SwiperSlide>
-          <SwiperSlide className="res-slide">
-            <h1 className="sec-color">Hoooii</h1> 
-          </SwiperSlide>
-          <div className="navigation-btns">
-            <button className="navigation-btn" onClick={() => swiper.slideNext()}>
-              Next
-            </button>
-            <button className="navigation-btn" onClick={() => swiper.slidePrev()}>
-              Prev
-            </button>
-          </div>
+          {
+            carouselData.map(slide => {
+              return(
+                <SwiperSlide className="carousel-slide" key={crypto.randomUUID()}>
+                  <SlideContent featured={slide.featured} brandTitle={slide.brandTitle} carouselPic={slide.carouselPic}/>
+                </SwiperSlide>
+              );
+            })
+          }
         </Swiper>
     </div>
   )

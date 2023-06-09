@@ -9,7 +9,6 @@ const Contact = () => {
         <ConsultationSection />
       </LinedBackground>
       <Footer />
-      <Footer />
     </>
   )
 }

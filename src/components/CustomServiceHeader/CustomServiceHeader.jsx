@@ -1,9 +1,10 @@
 import "./CustomServiceHeader.css";
 
-const CustomServiceHeader = () => {
+// eslint-disable-next-line react/prop-types
+const CustomServiceHeader = ({ whiteText, purpleText }) => {
   return (
     <div className="custom-service-header">
-        <h1 className="ff-almeria-r sec-color">Select the <span className="blk-color">Service</span></h1>
+        <h1 className="ff-almeria-r sec-color">{whiteText}<span className="blk-color">{purpleText}</span></h1>
         <hr />
     </div>
   )

@@ -12,7 +12,7 @@ const ConsultationSection = () => {
             </p>
         </div>
         <div className="consultation-form-wrapper">
-            <form className="consultation-form" action="">
+            <form className="consultation-form" action="https://calendly.com/visualsbranding/consult">
                 <input type="email" className="ff-gillroy-u sec-color" name="email" id="email" placeholder="Email" />
                 <input type="text" className="ff-gillroy-u sec-color" name="message" id="message" placeholder="Message" />
                 <button type="submit" className="btn-primary sec-color ff-gillroy-l">SEND</button>
