@@ -1,6 +1,28 @@
 .portfolio-cards{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-auto-rows: auto;
     grid-gap: 3rem;
+}
+
+.portfolio-card{
+    aspect-ratio: 1;
+    width: 80%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.card-title{
+    position: absolute;
+    bottom: -30%;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: transform 0.2s ease;
+}
+
+.portfolio-card:hover .card-title{
+    transform: translateX(-50%) translateY(-160%);
 }

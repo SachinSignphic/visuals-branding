@@ -1,6 +1,6 @@
 import "./PortfolioCards.css";
 import { Link } from "react-router-dom";
-import cardData from "../../assets/cardData";
+import cardData from "../../assets/portfolioData";
 
 const PortfolioCards = () => {
   return (
@@ -8,8 +8,10 @@ const PortfolioCards = () => {
         {
             cardData.map(card => {
                 return (
-                    <Link className="portfolio-card" key={crypto.randomUUID()}>
+                    <Link className="portfolio-card" key={card.id} to={card.id}>
                         <img src={card.cardImg} alt={card.cardName} />
+                        {/* <h3 className="ff-gillroy-m fs-m sec-color">{card.cardName}</h3> */}
+                        <img src={card.cardTitle} alt={card.cardName + " title"} className="card-title" />
                     </Link>
                 )
             })

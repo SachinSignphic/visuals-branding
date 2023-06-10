@@ -7,7 +7,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/autoplay"
 
-import carouselData from "../../assets/carouselData";
+import carouselData from "../../assets/portfolioData";
 
 const PortfolioMain = () => {
 

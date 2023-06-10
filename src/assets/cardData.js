@@ -1,15 +1,21 @@
 const cardData = [
     {
-        cardImg: "/productGridPics/Presentation 2.png",
-        cardName: "Indigo"
+        cardImg: "/productGridPics/IndigoLogo.png",
+        cardTitle: "/productGridPics/IndigoTitle.png",
+        cardName: "Indigo",
+        cardId: "indigo"
     },
     {
-        cardImg: "/productGridPics/Presentation 2.png",
-        cardName: "Indigo"
+        cardImg: "/productGridPics/IndigoLogo.png",
+        cardTitle: "/productGridPics/IndigoTitle.png",
+        cardName: "Tata",
+        cardId: "tata"
     },
     {
-        cardImg: "/productGridPics/Presentation 2.png",
-        cardName: "Indigo"
+        cardImg: "/productGridPics/IndigoLogo.png",
+        cardTitle: "/productGridPics/IndigoTitle.png",
+        cardName: "Test",
+        cardId: "test"
     },
 ];
 

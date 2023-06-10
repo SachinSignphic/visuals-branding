@@ -1,0 +1,9 @@
+.portfolio-product-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product-title{
+    font-size: 5.7rem;
+}

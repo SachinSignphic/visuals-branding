@@ -1,0 +1,13 @@
+.product-portfolio-description{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.prod-title{
+    font-size: 5rem;
+}
+
+.prod-desc{
+    font-size: 2.1rem;
+}

@@ -6,6 +6,8 @@ import Portfolio from './routes/Portfolio'
 import About from './routes/About'
 import { Routes, Route } from 'react-router-dom'
 import Consultation from './routes/Consultation'
+import PortfolioProduct from './routes/PortfolioProduct'
+import Page404 from './routes/Page404'
 
 function App() {
 
@@ -16,8 +18,10 @@ function App() {
         <Route path='/contact' element={<Contact />} />
         <Route path='/about' element={<About />} />
         <Route path='/portfolio' element={<Portfolio />} />
+        <Route path='portfolio/:id' element={<PortfolioProduct />} />
         <Route path='/custom-service' element={<CustomService />} />
         <Route path='/free-consultation' element={ <Consultation /> } />
+        <Route path='*' element={<Page404 />} />
       </Routes>
     </>
   )
