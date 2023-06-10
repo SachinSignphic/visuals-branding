@@ -11,6 +11,10 @@
     /* outline: 1px solid red; */
 }
 
+.what-we-do h1{
+    font-size: 4.5rem;
+}
+
 .scroll-button-container{
     display: flex;
     justify-content: center;
@@ -29,6 +33,10 @@
     cursor: pointer;
 }
 
+.tab-group{
+    gap: 1rem;
+}
+
 .tab:focus{
     outline: none;
 }
@@ -37,6 +45,45 @@
     border: 2px solid transparent;
 }
 
+.widget-tab h1{
+    font-size: 2rem;
+}
+
+.widget-content{
+    font-size: 1.7rem;
+}
+
 .tab:focus > h1{
     border-bottom: 2px solid var(--blk-color);
+}
+
+.accordian-mobile{
+    display: none;
+}
+
+@media  screen and (max-width: 1680px) {
+    .what-we-do{
+        gap: 3rem;
+    }
+
+    .what-we-do h1{
+        font-size: 3.5rem;
+    }
+
+    .widget-tab h1{
+        font-size: 1.5rem;
+    }
+
+    .widget-content{
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .widget-tab{
+        display: none;
+    }
+    .accordian-mobile{
+        display: block;
+    }
 }

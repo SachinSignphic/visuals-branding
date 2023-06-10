@@ -11,3 +11,12 @@ html{
   padding: 0 6rem;
   max-width: 1920px;
 }
+
+@media  screen and (max-width: 1366px) {
+  html{
+    scroll-padding-top: 12rem;
+  }
+  #root{
+    padding: 0 1rem
+  }
+}

@@ -13,3 +13,13 @@
 .hero h2 span{
     color: var(--blk-color)
 }
+
+@media screen and (max-width: 768px) {
+    .hero{
+        padding: 2rem;
+    }
+
+    .hero h2{
+        text-align: center;
+    }
+}

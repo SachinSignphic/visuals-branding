@@ -13,7 +13,7 @@ const TransformSection = ({scrollTo, style}) => {
           </div>
           <div className="transform-text-container transform-3">
               <h3 className="ff-gillroy-l sec-color fs-l">Make a statement with <br /> <span className="blk-color">visuals branding</span> production</h3>
-            <ScrollButton scrollTo={scrollTo} style={style} />
+            <ScrollButton scrollTo={scrollTo} style={style} className="transform-scroll" />
           </div>
       </div>
   )

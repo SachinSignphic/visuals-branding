@@ -26,3 +26,18 @@
     opacity: 0.4;
     /* position: absolute; */
 }
+
+@media  screen and (max-width: 1366px) {
+    .lined-background{
+        gap: 7rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .line-wrapper{
+        display: none;
+    }
+    .lined-background{
+        padding-top: 3rem
+    }
+}

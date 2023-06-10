@@ -17,3 +17,24 @@
     margin-top: 0.4rem;
     aspect-ratio: 1;
 }
+
+@media  screen and (max-width: 1366px) {
+    .scroll-button{
+        height: 6rem;
+    }
+    .scroll-button img{
+        width: 3rem;
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .scroll-button{
+        height: 4rem;
+    }
+    
+    .scroll-button img{
+        aspect-ratio: 1;
+        width: 2rem;
+    }
+}
