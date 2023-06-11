@@ -27,7 +27,7 @@
     /* position: absolute; */
 }
 
-@media  screen and (max-width: 1366px) {
+@media  screen and (min-width: 769px) and  (max-width: 1366px) {
     .lined-background{
         gap: 7rem;
     }

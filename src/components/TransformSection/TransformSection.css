@@ -56,7 +56,9 @@
     .transform{
         position: relative;
         grid-template-rows: 1fr auto 1fr;
-        grid-gap: 4rem;
+        padding-bottom: 10rem;
+        grid-gap: 6rem;
+        height: 90vh
     }
     .transform-2 h1{
         font-size: 3rem;
@@ -74,6 +76,6 @@
     }
     .transform .scroll-button{
         left: 0 !important;
-        top: 105%
+        bottom: 1%
     }
 }

@@ -1,25 +1,50 @@
-.carousel-cards{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-    justify-content: center;
+.creator-carousel{
+    width: 100%;
+    margin: auto;
 }
 
-.card-img{
-    height: 30rem;
-    border-radius: 0.6rem;
-    /* overflow: hidden; */
+.creator-slide{
+    width: 284px !important;
+    position: relative;
 }
 
-.card-img img{
+.creator-slide img{
     border-radius: 0.6rem;
     transition: filter 0.3s ease;
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
     filter: grayscale(1);
+    width: 284px;
+    object-fit: cover;
+    aspect-ratio: 0.68 / 1;
 }
 
-.card-img img:hover{
+.creator-slide img:hover{
     filter: grayscale(0);
+}
+
+.creator-name{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%) translateY(100%);
+    transition: transform 0.2s ease;
+}
+
+.text-gradient{
+    position: absolute;
+    height: 6rem;
+    width: 100%;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%) translateY(100%);
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0) 100%);
+    transition: transform 0.2s ease;
+}
+
+.creator-slide:hover .creator-name{
+    transform: translateX(-50%) translateY(-20%);
+}
+
+.creator-slide:hover .text-gradient{
+    transform: translateX(-50%) translateY(-0%);
 }

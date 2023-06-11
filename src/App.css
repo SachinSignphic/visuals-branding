@@ -12,9 +12,18 @@ html{
   max-width: 1920px;
 }
 
-@media  screen and (max-width: 1366px) {
+@media  screen and (min-width: 769px) and  (max-width: 1366px) {
   html{
-    scroll-padding-top: 12rem;
+    scroll-padding-top: 10rem;
+  }
+  #root{
+    padding: 0 4rem
+  }
+}
+
+@media screen and (max-width: 768px) {
+  html{
+    scroll-padding-top: 4rem;
   }
   #root{
     padding: 0 1rem

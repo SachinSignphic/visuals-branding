@@ -66,6 +66,8 @@
   --ff-gilroy-medium: 'Gillroy Medium', sans-serif;
   --ff-gilroy-light: 'Gillroy Light', sans-serif;
   --ff-gilroy-bold: 'Gillroy Bold', sans-serif; 
+
+  --swiper-theme-color: #B75CFF !important;
   
   color-scheme: light dark;
 
