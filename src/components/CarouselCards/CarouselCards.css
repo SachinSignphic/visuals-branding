@@ -23,10 +23,12 @@
 
 .creator-name{
     position: absolute;
-    bottom: 0;
+    bottom: 20%;
     left: 50%;
     transform: translateX(-50%) translateY(100%);
     transition: transform 0.2s ease;
+    width: 100%;
+    text-align: center;
 }
 
 .text-gradient{
@@ -37,7 +39,7 @@
     left: 50%;
     transform: translateX(-50%) translateY(100%);
     background: rgb(0,0,0);
-    background: linear-gradient(0deg, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0) 100%);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
     transition: transform 0.2s ease;
 }
 

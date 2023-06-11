@@ -8,9 +8,16 @@ import "swiper/css/autoplay";
 
 import customerData from "../../assets/customerData";
 
+import { useEffect } from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 const CarsouselCards = () => {
+  useEffect(( ) => {
+        AOS.init();
+    }, []);  
   return (
-    <div className="carousel-cards">
+    <div className="carousel-cards" data-aos="zoom-out" data-aos-duration="700" data-aos-delay="1000">
         <Swiper
             modules={[Navigation, Pagination, Autoplay]}
             spaceBetween={20}
@@ -31,7 +38,7 @@ const CarsouselCards = () => {
                     <SwiperSlide key={i} className="creator-slide">
                         <img src={creator.pic} loading="lazy" alt={creator.name} />
                         <div className="text-gradient">
-                            <h2 className="creator-name ff-gillroy-m sec-color">{creator.name}</h2>
+                            <h2 className="creator-name ff-gillroy-b sec-color">{creator.name}</h2>
                         </div>
                     </SwiperSlide>)
                 })

@@ -1,24 +1,26 @@
 import { ScrollButton } from "../";
 import { Tab } from '@headlessui/react';
-import { useState } from "react";
 import "./WhatWeDo.css";
 import { Accordion, AccordionItem } from "@szhsin/react-accordion";
 import accordianData from "../../assets/accodianData";
 import chevronsDown from "/chevrons-down.svg";
-
+import { useEffect } from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 // eslint-disable-next-line react/prop-types
 const WhatWeDo = ({scrollTo}) => {
-  const [selectedIndex, setSelectedIndex] = useState(0);
-
+  useEffect(( ) => {
+          AOS.init();
+      }, []);
   return (
     <div className="what-we-do" id="what-we-do">
-        <h1 className="ff-almeria-r sec-color what-title">What we <span className="blk-color">do</span>.</h1>
+        <h1 className="ff-almeria-r sec-color what-title" data-aos="fade-up" data-aos-duration="1000">What we <span className="blk-color">do</span>.</h1>
         <div className="what-widget">
             <div className="scroll-button-container">
                 <ScrollButton scrollTo={scrollTo} style={{marginRight: "2.5rem"}} />
             </div>
-            <div className="widget-tab">
-              <Tab.Group vertical selectedIndex={selectedIndex} onChange={setSelectedIndex}>
+            <div className="widget-tab" data-aos="fade-in" data-aos-delay="700">
+              <Tab.Group vertical >
                 <Tab.List style={{
                   display: "flex",
                   flexDirection: "column",
@@ -46,6 +48,7 @@ const WhatWeDo = ({scrollTo}) => {
               </Tab.Group>
             </div>
         </div>
+        <div data-aos="fade-in" data-aos-delay="700" data-aos-duration="1000">          
         <Accordion transition className="accordian-mobile">
             {
               accordianData.map( ({header, content}, i) => {
@@ -65,6 +68,7 @@ const WhatWeDo = ({scrollTo}) => {
                 })
             }
         </Accordion>
+        </div>
         <div className="scroll-button-container">
                 <ScrollButton scrollTo={scrollTo} />
         </div>

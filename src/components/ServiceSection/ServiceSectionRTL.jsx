@@ -1,11 +1,16 @@
 import "./ServiceSection.css";
 import arrowRight from "/arrow-right.svg";
 import serviceSectionPlaceholder from "/service-section-placeholder.png";
-
+import { useEffect } from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 // eslint-disable-next-line react/prop-types
 const ServiceSectionRTL = ({ heading, purpleText, whiteText, pMarkup }) => {
+  useEffect(( ) => {
+        AOS.init();
+    }, []);
   return (
-    <div className="service-section-rtl">
+    <div className="service-section-rtl" data-aos="fade-right" data-aos-duration="1000">
         <div className="service-section-header">
             <h1 className="ff-almeria-r sec-color">{heading}</h1>
             <hr />

@@ -38,6 +38,7 @@
     }
     .team-cards{
         flex-direction: column;
-        gap: 3rem
+        gap: 3rem;
+        align-items: center;
     }
 }
