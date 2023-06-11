@@ -1,0 +1,15 @@
+@media screen and (max-width: 768px) {
+    .carousel-slide{
+        display: flex;
+        flex-direction: column;
+    }
+    .carousel-slide img{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1600px) {
+    .carousel-slide img{
+        width: 100%;
+    }
+}

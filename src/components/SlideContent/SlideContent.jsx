@@ -10,12 +10,10 @@ const SlideContent = ({ featured, brandTitle, carouselPic }) => {
           {/* obtain from [object Object] */}
           {featured}
         </h2>
-        <br />
         <h1 className="ff-almeria-r sec-color brand-title">
           {/* Obtain from data */} 
           {brandTitle}
         </h1>
-        <br />
         <SlideNextButton />
       </div>
       <div className="slide-image">

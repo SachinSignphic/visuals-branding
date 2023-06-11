@@ -11,3 +11,30 @@
 .prod-desc{
     font-size: 2.1rem;
 }
+
+@media screen and (max-width: 768px) {
+    .prod-title{
+        font-size: 2.5rem;
+    }
+    .product-portfolio-description{
+        flex-direction: column;
+    }
+    .product-portfolio-description p{
+        font-size: 1.6rem;
+    }
+    
+    .product-image img{
+        width: 100%;
+    }
+
+}
+
+@media screen and (min-width: 769px) and (max-width: 1600px) {
+    .prod-title{
+        font-size: 2.5rem;
+    }
+
+    .product-portfolio-description p{
+        font-size: 1.6rem;
+    }
+}   

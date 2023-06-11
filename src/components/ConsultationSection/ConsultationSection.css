@@ -55,3 +55,41 @@
 .consult-btn{
     padding: 1rem 3rem
 }
+
+@media screen and (max-width: 768px) {
+    .consultation-section{
+        grid-template-columns: none;
+        grid-template-rows: repeat(2, 1fr);
+        grid-gap: 4rem;
+    }
+    .consultation-info h1{
+        font-size: 3rem;
+    }  
+    .consultation-info p{
+        max-width: 100%;
+        line-height: 40px;
+    }
+    .consultation-form{
+        gap: 4rem
+    }
+    .consultation-form input{
+        font-size: 2rem;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1600px) {
+
+    .consultation-info h1{
+        font-size: 3rem;
+    }  
+    .consultation-info p{
+        max-width: 100%;
+        line-height: 40px;
+    }
+    .consultation-form{
+        gap: 4rem
+    }
+    .consultation-form input{
+        font-size: 2rem;
+    }
+}

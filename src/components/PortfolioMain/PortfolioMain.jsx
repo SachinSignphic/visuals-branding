@@ -39,4 +39,4 @@ const PortfolioMain = () => {
   )
 }
 
-export default PortfolioMain
+export default PortfolioMain;

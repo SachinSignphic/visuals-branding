@@ -5,7 +5,55 @@
     padding: 0 6rem
 }
 
+.slide-text{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem
+}
+
+.navigation-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 4.5rem;
+    aspect-ratio: 1;
+}
+
 .brand-title{
     font-size: 7rem;
     line-height: 6.7rem;
+}
+
+@media screen and (max-width: 768px) {
+    .brand-title{
+        font-size: 3rem;
+    }
+    .slide-content{
+        padding: 0;
+        align-items: flex-start;
+        flex-direction: column-reverse;
+    }
+    .slide-text{
+        display: flex;
+        flex-direction: column;
+        gap: 0rem !important
+    }
+    .slide-text h1{
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+    .slide-text h2{
+        font-size: 1.6rem;
+        line-height: 3rem;
+    }
+    .navigation-btn{
+        width: 3rem;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1600px) {
+    .brand-title{
+        font-size: 3.5rem;
+        line-height: 3rem;
+    }
 }

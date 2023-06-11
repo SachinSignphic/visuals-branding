@@ -17,6 +17,7 @@
 
 .card-title{
     position: absolute;
+    width: 100%;
     bottom: -30%;
     left: 50%;
     transform: translateX(-50%);
@@ -24,5 +25,13 @@
 }
 
 .portfolio-card:hover .card-title{
-    transform: translateX(-50%) translateY(-160%);
+    transform: translateX(-50%) translateY(-100%);
+}
+
+@media screen and (max-width: 768px) {
+    .portfolio-cards{
+        margin-top: 5rem;
+        grid-template-columns: none;
+        place-items: center;
+    }
 }
