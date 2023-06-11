@@ -23,7 +23,7 @@ html{
 
 @media screen and (max-width: 768px) {
   html{
-    scroll-padding-top: 4rem;
+    scroll-padding-top: 12rem;
   }
   #root{
     padding: 0 1rem

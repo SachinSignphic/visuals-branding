@@ -8,3 +8,15 @@
 .custom-service-header h1{
     font-size: 7rem;
 }
+
+@media screen and (max-width: 768px) {
+    .custom-service-header h1{
+        font-size: 3rem;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1600px) {
+    .custom-service-header h1{
+        font-size: 3.5rem;
+    }
+}

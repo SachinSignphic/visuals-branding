@@ -17,3 +17,25 @@
     line-height: 6.4rem;
     padding: 0 8rem;
 }
+
+@media screen and (max-width: 768px) {
+    .about-header{
+        font-size: 1.8rem;
+    }
+    .about-content{
+        padding: 0;
+        font-size: 1.5rem;
+        line-height: 3rem;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1600px) {
+    .about-header{
+        font-size: 2rem;
+    }
+    .about-content{
+        padding: 0 2rem;
+        font-size: 2rem;
+        line-height: 4rem;
+    }
+}

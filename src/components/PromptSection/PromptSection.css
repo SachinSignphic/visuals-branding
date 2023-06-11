@@ -11,6 +11,10 @@
     padding: 0 1rem;
 }
 
+.prompt-header h1{
+    font-size: 5.7rem;
+}
+
 hr{
     border: none;
     height: 2px;
@@ -29,6 +33,14 @@ hr{
     display: grid;
     grid-template-columns: 1fr 1fr;
     position: relative;
+}
+
+.prompt-link h2{
+    font-size: 1.7rem;
+}
+
+.prompt-link h1{
+    font-size: 5.7rem;
 }
 
 .prompt-link > div{
@@ -52,4 +64,35 @@ hr{
 
 .circle-right img{
     stroke: #fff
+}
+
+@media screen and (min-width: 769px) and (max-width: 1600px){
+    .prompt-header h1{
+        font-size: 3rem;
+    }
+    .prompt-link h2{
+        font-size: 1.5rem;
+    }
+    .prompt-link h1{
+        font-size: 3.7rem;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .prompt-header h1{
+        font-size: 2rem;
+    }
+    .prompt-header .scroll-button{
+        margin: 0 !important;
+    }
+    .prompt-link{
+        grid-template-columns: 1fr auto;
+    }
+    .prompt-link h2{
+        font-size: 1.2rem;
+    }
+    .prompt-link h1{
+        font-size: 2.5rem;
+        width: 80%;
+    }
 }

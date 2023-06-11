@@ -3,7 +3,7 @@ footer{
     justify-content: space-between;
     align-items: center;
     gap: 2rem;
-    padding: 3rem 7rem;
+    padding: 3rem;
     margin-top: auto;
 }
 
@@ -18,4 +18,37 @@ footer{
 
 .copyrights span{
     color: var(--blk-color);
+}
+
+.socials{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.socials img{
+    width: 28px;
+    filter: invert(1)
+}
+
+.socials img:hover{
+    filter: invert(1) sepia(96%) saturate(1358%) hue-rotate(242deg) brightness(89%) contrast(100%)
+}
+
+@media screen and (min-width: 769px) and (max-width: 1600px) {
+
+}
+
+@media screen and (max-width: 768px) {
+    footer{
+        padding: 1rem;
+        flex-wrap: wrap;
+    }
+    .copyrights{
+        width: 70%;
+    }
+    .socials{
+        width: 100%;
+    }
 }

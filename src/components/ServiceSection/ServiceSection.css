@@ -55,3 +55,18 @@
 .service-section-ltr .service-section-content{
     flex-direction: row-reverse;
 }
+
+@media screen and (max-width: 768px) {
+    .service-section-content{
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1600px) {
+    .service-section-header h1{
+        font-size: 2.5rem;
+    }
+    .service-section-details h1{
+        font-size: 2rem;
+    }
+}

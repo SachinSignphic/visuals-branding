@@ -62,9 +62,36 @@ nav > button{
     padding: var(--padding) 2rem;
     border: 1px solid var(--blk-color);
     border-radius: 0.1rem;
+
 }
 
-.nav-links-hidden{
+.toggle-ham{
+    width: 2rem;
+    aspect-ratio: 1;
+    background: #000;
+    /* border: 1px solid silver; */
+    display: none;
+}
+
+.toggle-1{
+    display: block;
+    width: 1rem;
+    height: 2px;
+    background-color: white;
+    transform-origin: top right;
+    transition: transform 0.3s ease, width 0.3s ease;
+}
+
+.toggle-2{
+    display: block;
+    width: 1.5rem;
+    height: 2px;
+    background-color: white;
+    transform-origin: bottom right;
+    transition: transform 0.3s ease;
+}
+
+.nav-links-mobile{
     display: none;
 }
 
@@ -79,6 +106,64 @@ nav > button{
 
 @media screen and (max-width: 768px){
     nav{
+        padding: 1rem;
+    }
+    .nav-logo{
+        width: 80%;
+    }
+    .nav-logo img{
+        width: 3rem;
+    }
+    .nav-logo h2{
+        font-size: 1.7rem;
+    }
+    .nav-links{
         display: none;
+    }
+    .nav-links-mobile{
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+        padding: 8rem 4rem;
+        align-items: flex-end;
+        width: 100%;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.76);
+        transform: scale(0);
+        transform-origin: top right;
+        transition: transform 0.3s ease;
+    }
+    .nav-links-mobile a{
+        width: 100%;
+        text-align: center;
+    }
+    .nav-links-mobile img{
+        position: absolute;
+        width: 4rem;
+        bottom: 3rem;
+        left: 3rem
+    }
+    .nav-links-mobile-open{
+        transform: scale(1);
+    }
+    .toggle-ham{
+        position: absolute;
+        right: 1rem;
+        z-index: 50;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        gap: 0.8rem;
+        flex-direction: column;
+    }
+    .toggle-1-open{
+        transform: rotate(-45deg) translate(0.05rem);
+        width: 1.5rem;
+    }
+    .toggle-2-open{
+        transform: rotate(45deg);
     }
 }

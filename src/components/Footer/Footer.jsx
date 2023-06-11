@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './Footer.css';
 
 const Footer = () => {
@@ -10,7 +11,21 @@ const Footer = () => {
                 <h3 className='ff-gillroy-l fs-2m'>© 2023 <span>Visuals Branding</span>, LLC</h3>
             </div>
             <div className="socials">
-
+                <Link to="/">
+                    <img src="/socials/behance.png" alt="" />
+                </Link>
+                <Link to="/">
+                    <img src="/socials/twitter.png" alt="" />
+                </Link>
+                <Link to="/">
+                    <img src="/socials/facebook.png" alt="" />
+                </Link>
+                <Link to="/">
+                    <img src="/socials/instagram.png" alt="" />
+                </Link>
+                <Link to="/">
+                    <img src="/socials/linkedin.png" alt="" />
+                </Link>
             </div>
         </footer>
     )

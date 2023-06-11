@@ -15,3 +15,29 @@
     display: flex;
     justify-content: space-evenly;
 }
+
+.team-header h1{
+    font-size: 5.7rem;
+}
+
+@media screen and (min-width: 769px) and (max-width: 1600px) {
+    .team-header{
+        grid-template-columns: 2fr 3fr 0.5fr;
+    }
+    .team-header h1{
+        font-size: 3.2rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .team-header h1{
+        font-size: 2rem;
+    }
+    .team-header{
+        grid-template-columns: 3fr 2fr 0.5fr;
+    }
+    .team-cards{
+        flex-direction: column;
+        gap: 3rem
+    }
+}

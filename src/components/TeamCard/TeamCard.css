@@ -18,3 +18,13 @@
     width: 100%;
     border-radius: 50%;
 }
+
+@media screen and (min-width: 769px) and (max-width: 1600px) {
+    .team-card{
+        width: 18rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+}

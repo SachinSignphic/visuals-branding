@@ -86,24 +86,32 @@
 @media screen and (max-width: 768px) {
     .what-we-do{
         gap: 2.2rem;
-        height: 90vh
     }
+
     .widget-tab{
         display: none;
     }
     .accordian-mobile{
         display: initial;
+        background: rgb(0,0,0);
+        background: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.5) 20%, rgba(0,0,0,0.5) 80%, rgba(0,0,0,0) 100%);
     }
     .szh-accordion__item{
         margin-bottom: 3rem;
     }
+    .szh-accordion__item-panel > div{
+        font-size: 1.5rem;
+    }
     .szh-accordion__item-btn{
-        background-color: #000;
+        background-color: rgba(0,0,0,0.5);
         border: none;
         color: var(--sec-color);
         text-align: left;
         /* border-bottom: 1px solid var(--sec-color); */
         width: 100%;
+    }
+    .szh-accordion__item-btn > h2{
+        font-size: 1.3rem;
     }
     .szh-accordion__item-content{
         transition: height 0.25s cubic-bezier(0, 0, 0, 1);
@@ -117,7 +125,7 @@
     }
     .what-title{
         line-height: normal;
-        font-size: 3rem !important;
+        font-size: 2rem !important;
     }
     .widget-content{
         padding-top: 1rem;
