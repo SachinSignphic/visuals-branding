@@ -49,6 +49,10 @@
     font-size: 2rem;
 }
 
+.widget-tab{
+    height: 40vh
+}
+
 .widget-content{
     font-size: 1.7rem;
 }

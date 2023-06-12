@@ -10,6 +10,25 @@ html{
   flex-direction: column;
   padding: 0 6rem;
   max-width: 1920px;
+  overflow-x: hidden;
+  position: relative;
+  --bg-opacity: 0.5;
+}
+
+#root::before{
+  content: " ";
+  position: absolute;
+  top: 0; 
+  left: 0;
+  width: 100vw; 
+  height: 100vh;  
+  opacity: var(--bg-opacity); 
+  z-index: -2;
+  background-image: url("/bg.gif");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 @media  screen and (min-width: 769px) and  (max-width: 1366px) {
