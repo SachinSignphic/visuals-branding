@@ -1,9 +1,9 @@
-import { Footer, Navbar, LinedBackground, ConsultationSection } from '../components'
+import { Footer, Navbar, LinedBackground, ConsultationSection, FadingBackground } from '../components'
 
 const Contact = () => {
   return (
     <>
-      <Navbar />
+      <FadingBackground />
       <Navbar />
       <LinedBackground style={{marginTop: "10rem"}}>
         <ConsultationSection />

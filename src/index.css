@@ -101,34 +101,42 @@ body {
 /*font-family utility classes*/
 .ff-almeria-b{
   font-family: var(--ff-almeria-bold);
+  font-display: "swap"
 }
 
 .ff-almeria-r{
   font-family: var(--ff-almeria-regular);
+  font-display: "swap"
 }
 
 .ff-gillroy-t{
   font-family: var(--ff-gilroy-thin);
+  font-display: "swap"
 }
 
 .ff-gillroy-u{
   font-family: var(--ff-gilroy-ultralight);
+  font-display: "swap"
 }
 
 .ff-gillroy-r{
   font-family: var(--ff-gilroy-regular);
+  font-display: "swap"
 }
 
 .ff-gillroy-m{
   font-family: var(--ff-gilroy-medium);
+  font-display: "swap"
 }
 
 .ff-gillroy-l{
   font-family: var(--ff-gilroy-light);
+  font-display: "swap"
 }
 
 .ff-gillroy-b{
   font-family: var(--ff-gilroy-bold);
+  font-display: "swap"
 }
 
 /*font-sizes*/

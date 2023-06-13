@@ -9,7 +9,7 @@ const ProductPortfolioDescription = ({ whiteText, purpleText, desc, typographyIm
             <p className="ff-gillroy-l sec-color prod-desc">{desc}</p>
         </div>
         <div className="product-image">
-            <img src={typographyImage} alt="" />
+            <img src={typographyImage} alt="" loading="lazy" />
         </div>
     </div>
   )

@@ -17,7 +17,7 @@ const SlideContent = ({ featured, brandTitle, carouselPic }) => {
         <SlideNextButton />
       </div>
       <div className="slide-image">
-        <img src={carouselPic} alt={brandTitle} />
+        <img src={carouselPic} alt={brandTitle} loading="lazy"/>
       </div>
     </div>
   )

@@ -12,19 +12,19 @@ const Footer = () => {
             </div>
             <div className="socials">
                 <Link to="/">
-                    <img src="/socials/behance.png" alt="" />
+                    <img src="/socials/behance.png" loading='lazy' alt="behance" />
                 </Link>
                 <Link to="/">
-                    <img src="/socials/twitter.png" alt="" />
+                    <img src="/socials/twitter.png" loading='lazy' alt="twitter" />
                 </Link>
                 <Link to="/">
-                    <img src="/socials/facebook.png" alt="" />
+                    <img src="/socials/facebook.png" loading='lazy' alt="facebook" />
                 </Link>
                 <Link to="/">
-                    <img src="/socials/instagram.png" alt="" />
+                    <img src="/socials/instagram.png" loading='lazy' alt="instagram" />
                 </Link>
                 <Link to="/">
-                    <img src="/socials/linkedin.png" alt="" />
+                    <img src="/socials/linkedin.png" loading='lazy' alt="linkedin" />
                 </Link>
             </div>
         </footer>

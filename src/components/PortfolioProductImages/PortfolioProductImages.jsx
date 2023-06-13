@@ -9,7 +9,7 @@ const PortfolioProductImages = ({ images }) => {
             // eslint-disable-next-line react/prop-types
             images.map( image => {
                 return (
-                    <img className="portfolio-product-image" key={crypto.randomUUID()} src={image} alt="" />
+                    <img className="portfolio-product-image" key={crypto.randomUUID()} src={image} alt="" loading="lazy" />
                 )
             })
         }
