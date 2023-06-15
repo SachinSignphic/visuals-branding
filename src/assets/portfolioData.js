@@ -14,18 +14,18 @@ const carouselData = [
         typographyImage: '/productPics/indigo/typographyImage.jpg'
     },
     {
-        brandTitle: "Tata Logo",
-        carouselPic: "/carouselPics/Indigo.png",
+        brandTitle: "RedBeard Gaming",
+        carouselPic: "/carouselPics/redbeard.jpg",
         featured: "Featured",
-        id: "tata",
-        cardImg: "/productGridPics/IndigoLogo.png",
+        id: "redbeard",
+        cardImg: "/productGridPics/redbeardLogo.jpg",
         cardTitle: "/productGridPics/IndigoTitle.png",
-        cardName: "Tata",
-        images: ['/productPics/indigo/1.jpg','/productPics/indigo/2.jpg'],
-        whiteText: "Exploring",
-        purpleText: "Typography",
-        desc: "For such a strong persona, the client made a right choice with the font, but for our design, using the given font as model, following are the typographic explorations, which will be later defined ahead.",
-        typographyImage: '/productPics/indigo/typographyImage.jpg'
+        cardName: "Redbeard Gaming",
+        images: ['/productPics/redbeard/1.jpg','/productPics/redbeard/2.jpg'],
+        whiteText: "",
+        purpleText: "",
+        desc: "",
+        typographyImage: ''
     },
     {
         brandTitle: "Test Logo",

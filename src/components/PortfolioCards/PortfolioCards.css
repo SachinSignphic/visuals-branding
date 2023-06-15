@@ -18,20 +18,33 @@
 .card-title{
     position: absolute;
     width: 100%;
-    bottom: -30%;
+    bottom: -10%;
     left: 50%;
+    z-index: 3;
     transform: translateX(-50%);
     transition: transform 0.2s ease;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5)
 }
 
-.portfolio-card:hover .card-title{
-    transform: translateX(-50%) translateY(-100%);
+.portfolio-card:hover > .card-title{
+    transform: translateX(-50%) translateY(-120%);
+}
+
+.portfolio-card-img{
+    width: 100%;
 }
 
 @media screen and (max-width: 768px) {
     .portfolio-cards{
-        margin-top: 5rem;
+        /* margin-top: 5rem; */
         grid-template-columns: none;
         place-items: center;
+    }
+    .card-title{
+        bottom: 5%;
+    }
+    .portfolio-card:hover > .card-title{
+        transform: translateX(-50%) translateY(-10%);
     }
 }

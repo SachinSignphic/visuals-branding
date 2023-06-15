@@ -9,6 +9,10 @@
 }
 
 @media screen and (max-width: 768px) {
+    .portfolio-product-title{
+        flex-direction: column;
+        align-items: flex-start;
+    }
     .product-title{
         font-size: 2.5rem;
     }

@@ -9,9 +9,9 @@ const PortfolioCards = () => {
             cardData.map(card => {
                 return (
                     <Link className="portfolio-card" key={card.id} to={card.id}>
-                        <img src={card.cardImg} alt={card.cardName} loading="lazy" />
+                        <img src={card.cardImg} alt={card.cardName} loading="lazy" className="portfolio-card-img" />
                         {/* <h3 className="ff-gillroy-m fs-m sec-color">{card.cardName}</h3> */}
-                        <img src={card.cardTitle} alt={card.cardName + " title"} loading="lazy" className="card-title" />
+                        <h3 className="card-title ff-gillroy-m fs-l sec-color">{card.cardName}</h3>
                     </Link>
                 )
             })
