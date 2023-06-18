@@ -29,7 +29,7 @@ const PortfolioMain = () => {
             carouselData.map(slide => {
               return(
                 <SwiperSlide className="carousel-slide" key={crypto.randomUUID()}>
-                  <SlideContent featured={slide.featured} brandTitle={slide.brandTitle} carouselPic={slide.carouselPic}/>
+                  <SlideContent featured={slide.featured} brandTitle={slide.brandTitle} carouselPic={slide.carouselPic} link={slide.id}/>
                 </SwiperSlide>
               );
             })

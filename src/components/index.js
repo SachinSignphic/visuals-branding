@@ -22,6 +22,7 @@ import PortfolioProductTitle from "./PortfolioProductTitle/PortfolioProductTitle
 import PortfolioProductImages from "./PortfolioProductImages/PortfolioProductImages";
 import ProductPortfolioDescription from "./ProductPortfolioDescription/ProductPortfolioDescription";
 import FadingBackground from "./FadingBackground/FadingBackground";
+import PortfolioVideo from "./PortfolioVideo/PortfolioVideo";
 
 export { Navbar, 
     Hero, 
@@ -46,5 +47,6 @@ export { Navbar,
     PortfolioProductTitle,
     PortfolioProductImages,
     ProductPortfolioDescription,
-    FadingBackground
+    FadingBackground,
+    PortfolioVideo
 };

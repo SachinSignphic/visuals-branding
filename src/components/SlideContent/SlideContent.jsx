@@ -1,8 +1,9 @@
 import "./SlideContent.css";
 import SlideNextButton from "../PortfolioMain/SwiperNavButtons";
+import { Link } from "react-router-dom";
 
 // eslint-disable-next-line react/prop-types
-const SlideContent = ({ featured, brandTitle, carouselPic }) => {
+const SlideContent = ({ featured, brandTitle, carouselPic, link }) => {
   return (
     <div className="slide-content">
       <div className="slide-text">
@@ -17,7 +18,9 @@ const SlideContent = ({ featured, brandTitle, carouselPic }) => {
         <SlideNextButton />
       </div>
       <div className="slide-image">
+        <Link to={link}>
         <img src={carouselPic} alt={brandTitle} loading="lazy"/>
+        </Link>
       </div>
     </div>
   )
