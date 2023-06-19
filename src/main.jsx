@@ -9,5 +9,5 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <BrowserRouter>
     <ScrollToTop />
     <App />
-  </BrowserRouter>,
+  </BrowserRouter>
 )

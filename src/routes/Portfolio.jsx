@@ -1,6 +1,9 @@
 import { CustomServiceHeader, Footer, LinedBackground, Navbar, PortfolioCards, PortfolioMain } from "../components"
-
+import { useEffect } from "react";
 const Portfolio = () => {
+  useEffect(() => {
+    document.title = 'Visuals Branding | Portfolio'
+  }, []);
   return (
     <>
       <Navbar />

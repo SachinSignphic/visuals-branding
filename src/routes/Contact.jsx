@@ -1,6 +1,9 @@
 import { Footer, Navbar, LinedBackground, ConsultationSection, FadingBackground } from '../components'
-
+import { useEffect } from "react";
 const Contact = () => {
+  useEffect(() => {
+    document.title = 'Visuals Branding | Contact'
+  }, []);
   return (
     <>
       <FadingBackground />

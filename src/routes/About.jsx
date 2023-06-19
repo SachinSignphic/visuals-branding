@@ -1,6 +1,11 @@
+import { useEffect } from "react"
 import { Navbar, Footer, LinedBackground, AboutSection, WhatWeDo, TeamSection, PromptSection } from "../components"
 
 const About = () => {
+  useEffect(() => {
+    document.title = 'Visuals Branding | About'
+  }, []);
+  
   return (
     <>
       <Navbar />

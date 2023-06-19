@@ -19,8 +19,8 @@ const PortfolioProduct = () => {
       } else {
           setIsMobile(false)
         }
-      // });
-  }, []);
+      document.title = "Visuals Branding | " + newData.brandTitle;
+  }, [newData.brandTitle]);
   return (
     <>
         <Navbar />

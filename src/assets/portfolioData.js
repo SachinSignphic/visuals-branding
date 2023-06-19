@@ -65,7 +65,7 @@ const carouselData = [
     },
     {
         brandTitle: "Casper 6 Logo",
-        carouselPic: "/carouselPics/casper6.webp",
+        carouselPic: "/carouselPics/casper.webp",
         featured: "",
         id: "casper6",
         cardImg: "/productGridPics/casper6Logo.webp",

@@ -1,6 +1,9 @@
 import { Footer, LinedBackground, Navbar, CustomServiceHeader, ServiceSectionRTL, ServiceSectionLTR } from "../components"
-
+import { useEffect } from "react";
 const CustomService = () => {
+  useEffect(() => {
+    document.title = 'Visuals Branding | Custom Service'
+  }, []);
   return (
     <>
       <Navbar />

@@ -4,6 +4,7 @@ import serviceSectionPlaceholder from "/service-section-placeholder.png";
 import { useEffect } from "react";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { Link } from "react-router-dom";
 // eslint-disable-next-line react/prop-types
 const ServiceSectionLTR = ({ heading, purpleText, whiteText, pMarkup }) => {
   useEffect(( ) => {
@@ -15,7 +16,7 @@ const ServiceSectionLTR = ({ heading, purpleText, whiteText, pMarkup }) => {
             <h1 className="ff-almeria-r sec-color">{heading}</h1>
             <hr />
             <button className="circle-right">
-                    <img src={arrowRight} alt="Free consultation" />
+                  <Link to='https://form.jotform.com/231688064314457' about="_blank"><img src={arrowRight} alt="Free consultation" /></Link>
             </button>
         </div>
         <div className="service-section-content">
