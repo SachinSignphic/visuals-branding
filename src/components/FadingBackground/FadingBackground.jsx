@@ -19,9 +19,7 @@ const FadingBackground = () => {
 
     return (
         <div id="bg">
-          <video loop autoPlay muted>
-            <source src="/bg.webm" type="video/webm" />
-          </video>
+          <img src="/wave-haikei.svg" alt="" />
         </div>
     );
 }
