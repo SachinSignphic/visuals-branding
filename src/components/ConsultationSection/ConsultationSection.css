@@ -53,7 +53,8 @@
 }
 
 .consult-btn{
-    padding: 1rem 3rem
+    padding: 1rem 3rem;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 768px) {
@@ -68,6 +69,7 @@
     .consultation-info p{
         max-width: 100%;
         line-height: 40px;
+        font-size: 1.3rem;
     }
     .consultation-form{
         gap: 4rem

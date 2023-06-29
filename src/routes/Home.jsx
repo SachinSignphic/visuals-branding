@@ -1,7 +1,11 @@
-// import { Link } from 'react-router-dom'
+import { useEffect } from 'react';
 import { Navbar, Hero, Footer, LinedBackground, TransformSection, WhatWeDo, OurCustomers, PromptSection, TeamSection, FadingBackground } from '../components';
 
 const Home = () => {
+  useEffect(() => {
+    document.title = 'Visuals Branding | Home'
+  }, [])
+  
   return (
     <>
       <FadingBackground />

@@ -91,7 +91,7 @@
     .what-we-do{
         gap: 2.2rem;
     }
-
+    
     .widget-tab{
         display: none;
     }
@@ -133,5 +133,7 @@
     }
     .widget-content{
         padding-top: 1rem;
+        font-size: 1.3rem !important;
+        text-align: justify;
     }
 }

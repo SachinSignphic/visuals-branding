@@ -73,6 +73,7 @@
     }
     .service-section-details p{
         font-size: 1.3rem;
+        text-align: justify;
     }
     .service-section-images{
         flex-direction: column;
