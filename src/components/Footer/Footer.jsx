@@ -23,9 +23,6 @@ const Footer = () => {
                 <Link to="/">
                     <img src="/socials/instagram.png" loading='lazy' alt="instagram" />
                 </Link>
-                <Link to="/">
-                    <img src="/socials/linkedin.png" loading='lazy' alt="linkedin" />
-                </Link>
             </div>
         </footer>
     )

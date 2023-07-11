@@ -29,6 +29,7 @@
     transition: transform 0.2s ease;
     width: 100%;
     text-align: center;
+    letter-spacing: 1px;
 }
 
 .text-gradient{
@@ -49,4 +50,22 @@
 
 .creator-slide:hover .text-gradient{
     transform: translateX(-50%) translateY(-0%);
+}
+
+@media screen and (min-width: 769px) and (max-width: 1680px) {
+    .creator-slide{
+        width: 254px !important;
+    }
+    .creator-slide img{
+        width: 254px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .creator-slide{
+        width: 254px !important;
+    }
+    .creator-slide img{
+        width: 254px;
+    }
 }

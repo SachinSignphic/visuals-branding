@@ -26,9 +26,9 @@ const PortfolioMain = () => {
           className="swiper-slider"
         >
           {
-            carouselData.map(slide => {
+            carouselData.map((slide,i) => {
               return(
-                <SwiperSlide className="carousel-slide" key={crypto.randomUUID()}>
+                <SwiperSlide className="carousel-slide" key={i}>
                   <SlideContent featured={slide.featured} brandTitle={slide.brandTitle} carouselPic={slide.carouselPic} link={slide.id}/>
                 </SwiperSlide>
               );

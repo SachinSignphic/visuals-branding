@@ -29,12 +29,12 @@ const carouselData = [
         desc: "",
         typographyImage: '',
         mainVideoURL: "",
-        videoURLs: ['https://res.cloudinary.com/dhcn6tcc8/video/upload/v1687061105/vbmedia/redbeard/CAPTAIN_1_dorofl.webm', 'https://res.cloudinary.com/dhcn6tcc8/video/upload/v1687061087/vbmedia/redbeard/R1_CAPTAIN_REDBEARD_FINAL_ANIMATION_1080p_HD_wity6d.webm' ]
+        videoURLs: ['https://res.cloudinary.com/dhcn6tcc8/video/upload/v1687061105/vbmedia/redbeard/CAPTAIN_1_dorofl.webm',]
     },
     {
         brandTitle: "Hieuski Logo",
         carouselPic: "/carouselPics/hieuski.webp",
-        featured: "",
+        featured: "Featured",
         id: "hieuski",
         cardImg: "/productGridPics/hieuskiLogo.webp",
         cardTitle: "/productGridPics/IndigoTitle.png",
@@ -45,28 +45,28 @@ const carouselData = [
         desc: "",
         typographyImage: '',
         mainVideoURL: "https://www.youtube.com/watch?v=GaJD3jaL9Rk",
-        videoURLs: ['https://res.cloudinary.com/dhcn6tcc8/video/upload/v1687058476/vbmedia/hieuski/DISPLAY_LION_poj0gq.webm', 'https://res.cloudinary.com/dhcn6tcc8/video/upload/v1687058496/vbmedia/hieuski/jav_scene_2_aur1qi.webm']
+        videoURLs: ['https://res.cloudinary.com/dhcn6tcc8/video/upload/v1687058476/vbmedia/hieuski/DISPLAY_LION_poj0gq.webm',]
     },
     {
         brandTitle: "GRUNT PA USMC Logo",
         carouselPic: "/carouselPics/grunt.webp",
-        featured: "featured",
+        featured: "Featured",
         id: "gruntpausmc",
         cardImg: "/productGridPics/gruntLogo.webp",
         cardTitle: "/productGridPics/IndigoTitle.png",
         cardName: "GruntPaUSMC",
-        images: ['/productPics/gruntpausmc/1.webp','/productPics/gruntpausmc/2.webp'],
+        images: ['/productPics/gruntpausmc/2.webp'],
         whiteText: "",
         purpleText: "",
         desc: "",
         typographyImage: '',
         mainVideoURL: "https://www.youtube.com/watch?v=XBfwQS3xZ3w",
-        videoURLs: ['https://res.cloudinary.com/dhcn6tcc8/video/upload/v1687065834/vbmedia/gruntpausmc/SCREEN_STINGER_DISPLAY_uw7hln.webm', 'https://res.cloudinary.com/dhcn6tcc8/video/upload/v1686932555/vbmedia/gruntpausmc/SCREEN_um6msd.webm']
+        videoURLs: ['https://res.cloudinary.com/dhcn6tcc8/video/upload/v1687065834/vbmedia/gruntpausmc/SCREEN_STINGER_DISPLAY_uw7hln.webm',]
     },
     {
         brandTitle: "Casper 6 Logo",
         carouselPic: "/carouselPics/casper.webp",
-        featured: "",
+        featured: "Featured",
         id: "casper6",
         cardImg: "/productGridPics/casper6Logo.webp",
         cardTitle: "/productGridPics/IndigoTitle.png",

@@ -12,10 +12,10 @@
     opacity: var(--bg-opacity); 
     z-index: -2;
     background-image: url('/wave.svg'), linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.95) 2%, rgba(0,0,0,0.05) 10%, rgba(0,0,0,0) 100%);
-    background-repeat: repeat-x;
-    background-position: bottom left;
+    background-repeat: no-repeat;
+    background-position: bottom -90px left;
     background-attachment: fixed;
-    background-size: 70% 50%;
+    background-size: 100%;
 }
 
 @media screen and (max-width: 768px) {

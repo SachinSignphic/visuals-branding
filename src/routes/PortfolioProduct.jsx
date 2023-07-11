@@ -26,7 +26,8 @@ const PortfolioProduct = () => {
         <Navbar />
         <LinedBackground style={{marginTop: "10rem", gap: `${isMobile?"5rem":"10rem"}`}}>
             <PortfolioProductTitle featured={newData.featured} title={newData.brandTitle}  />
-            <PortfolioVideo ytURL={newData.mainVideoURL} /> 
+            <PortfolioVideo ytURL={newData.mainVideoURL} />
+            <div>
             <PortfolioProductImages images={newData.images}/>
             <ProductPortfolioDescription whiteText={newData.whiteText} purpleText={newData.purpleText} desc={newData.desc} typographyImage={newData.typographyImage}/>
             <div style={{display: "flex", flexDirection: "column", gap: "1rem"}}>
@@ -37,6 +38,7 @@ const PortfolioProduct = () => {
                 );
               })
             }
+            </div>
             </div>
         </LinedBackground>
         <Footer />

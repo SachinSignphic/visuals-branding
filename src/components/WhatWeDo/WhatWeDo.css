@@ -42,7 +42,9 @@
 }
 
 .tab > h1{
-    border: 2px solid transparent;
+    transition: border-bottom 0.2s ease;
+    border-bottom: 2px solid transparent;
+    color: #aaa;
 }
 
 .widget-tab h1{
@@ -57,7 +59,8 @@
     font-size: 1.7rem;
 }
 
-.tab:focus > h1{
+.tab-active > h1{
+    color: var(--sec-color);
     border-bottom: 2px solid var(--blk-color);
 }
 
@@ -72,10 +75,15 @@
 @media  screen and (min-width: 769px) and (max-width: 1680px) {
     .what-we-do{
         gap: 3rem;
+        height: 90vh;
     }
 
     .what-title{
-        font-size: 3.5rem;
+        font-size: 3.2rem !important;
+    }
+
+    .widget-tab{
+        grid-template-columns: 1fr 1.2fr !important;
     }
 
     .widget-tab h1{
