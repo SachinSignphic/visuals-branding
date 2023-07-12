@@ -21,7 +21,7 @@ const PortfolioMain = () => {
           autoplay = {{
             delay: 2000,
             pauseOnMouseEnter: true,
-            disableOnInteraction: false,
+            disableOnInteraction: true,
           }}
           className="swiper-slider"
         >

@@ -15,9 +15,11 @@ const ServiceSectionLTR = ({ heading, purpleText, whiteText, pMarkup }) => {
         <div className="service-section-header">
             <h1 className="ff-almeria-r sec-color">{heading}</h1>
             <hr />
+            <Link to='https://form.jotform.com/231688064314457' about="_blank">
             <button className="circle-right">
-                  <Link to='https://form.jotform.com/231688064314457' about="_blank"><img src={arrowRight} alt="Free consultation" /></Link>
+                  <img src={arrowRight} alt="Free consultation" />
             </button>
+            </Link>
         </div>
         <div className="service-section-content">
           <div className="service-section-images">

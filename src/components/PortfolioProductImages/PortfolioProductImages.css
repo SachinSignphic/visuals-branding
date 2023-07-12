@@ -1,7 +1,10 @@
 .portfolio-product-images{
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
 }
 
 .portfolio-product-image{
-    width: 100%;
+    width: 80vw;
 }

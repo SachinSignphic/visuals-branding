@@ -20,9 +20,9 @@
 
 @media screen and (max-width: 768px) {
     #bg{
-        background-repeat: repeat-x;
-        background-position: bottom left;
-        background-attachment: fixed;
-        background-size: 150% 50%;
+        background-repeat: no-repeat;
+    background-position: bottom left;
+    background-attachment: fixed;
+    background-size: contain;
     }
 }

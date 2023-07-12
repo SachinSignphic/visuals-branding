@@ -10,7 +10,26 @@
 }
 
 .hero h2 span{
-    color: var(--blk-color)
+    color: var(--blk-color);
+    background: -webkit-linear-gradient(to left, #b75cff 0%, #ff70db 100%); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #b75cff 0%, #ff70db 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: shimmer 2s ease infinite;
+}
+
+@keyframes shimmer {
+    0%{
+        background-size: 1rem;
+    }
+    70%{
+
+        background-size: 12rem;
+    }
+    100%{
+        background-size: 12rem;
+    }
 }
 
 @media screen and (max-width: 768px) {

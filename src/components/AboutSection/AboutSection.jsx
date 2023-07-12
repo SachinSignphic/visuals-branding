@@ -30,7 +30,7 @@ const AboutSection = () => {
         </Balancer>
         <br />
         <br />
-        <h3 className="ff-gillroy-b fs-3l blk-color" style={{width: "100%", textAlign: "center"}}>	&ldquo; A creative edge for the gaming industry. &rdquo;</h3>
+        <h3 className="ff-gillroy-b fs-3l blk-color" style={{width: "100%", textAlign: "center", lineHeight: "4rem"}}>	&ldquo; A creative edge for the gaming industry. &rdquo;</h3>
         </div>
     </div>
   )

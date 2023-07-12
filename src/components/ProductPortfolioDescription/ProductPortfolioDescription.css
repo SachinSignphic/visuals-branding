@@ -12,6 +12,10 @@
     font-size: 2.1rem;
 }
 
+.product-image img{
+    width: 100vh;
+}
+
 @media screen and (max-width: 768px) {
     .prod-title{
         font-size: 2.5rem;

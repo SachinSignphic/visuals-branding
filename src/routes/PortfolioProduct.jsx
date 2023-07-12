@@ -27,7 +27,7 @@ const PortfolioProduct = () => {
         <LinedBackground style={{marginTop: "10rem", gap: `${isMobile?"5rem":"10rem"}`}}>
             <PortfolioProductTitle featured={newData.featured} title={newData.brandTitle}  />
             <PortfolioVideo ytURL={newData.mainVideoURL} />
-            <div>
+            <div style={{display: "flex", flexDirection: "column", gap: "2rem"}}>
             <PortfolioProductImages images={newData.images}/>
             <ProductPortfolioDescription whiteText={newData.whiteText} purpleText={newData.purpleText} desc={newData.desc} typographyImage={newData.typographyImage}/>
             <div style={{display: "flex", flexDirection: "column", gap: "1rem"}}>
