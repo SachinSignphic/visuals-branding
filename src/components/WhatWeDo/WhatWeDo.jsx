@@ -34,7 +34,7 @@ const WhatWeDo = ({scrollTo}) => {
                   {
                     accordianData.map( (title, i) => {
                       return(
-                        <Tab key={i} className={selectedIndex===i?"tab tab-active":"tab"} as="a"><span className="blk-color ff-almeria-r fs-2m">{"0" + i}</span><h1 className="ff-almeria-r sec-color">{title.header}</h1> </Tab>
+                        <Tab key={i} className={selectedIndex===i?"tab tab-active":"tab"} as="a"><span className="blk-color ff-gillroy-b fs-2m">{"0" + i}</span>&nbsp;<h1 className="ff-gillroy-m sec-color">{title.header}</h1> </Tab>
                       );
                     })
                   }
@@ -59,13 +59,13 @@ const WhatWeDo = ({scrollTo}) => {
               accordianData.map( ({header, content}, i) => {
                 return (
                   <AccordionItem header={
-                    <h2 className="ff-almeria-r" style={{width: "100%", position: "relative"}}>
-                      <span className="blk-color" style={{marginRight: "1rem"}}>{'0'+`${i + 1}`}</span>
+                    <h2 className="ff-gillroy-m" style={{letterSpacing: "1px",width: "100%", position: "relative"}}>
+                      <span className="ff-gillroy-b blk-color" style={{marginRight: "1rem"}}>{'0'+`${i + 1}`}</span>
                       {header}
                       <img src={chevronsDown} alt="" style={{position: "absolute", right: "0", filter: "invert(1)"}}/>
                     </h2>
                   } key={i}>
-                    <div className='ff-gillroy-u sec-color widget-content'>
+                    <div className='ff-gillroy-r sec-color widget-content'>
                     {content}
                     </div>
                   </AccordionItem>
