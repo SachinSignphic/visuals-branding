@@ -40,6 +40,16 @@
   src: url('/fonts/Gilroy-Bold.ttf');
 }
 
+@font-face {
+  font-family: Geliat Bold;
+  src: url('/fonts/Geliat-ExtraBold.otf');
+}
+
+@font-face {
+  font-family: Geliat Light;
+  src: url('/fonts/Geliat-ExtraLight.otf');
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -66,6 +76,8 @@
   --ff-gilroy-medium: 'Gillroy Medium', sans-serif;
   --ff-gilroy-light: 'Gillroy Light', sans-serif;
   --ff-gilroy-bold: 'Gillroy Bold', sans-serif; 
+  --ff-geliat-bold: 'Geliat Bold', sans-serif;
+  --ff-geliat-light: 'Geliat Light', sans-serif;
 
   --swiper-theme-color: #B75CFF !important;
   
@@ -136,6 +148,16 @@ body {
 
 .ff-gillroy-b{
   font-family: var(--ff-gilroy-bold);
+  font-display: "swap"
+}
+
+.ff-geliat-b{
+  font-family: var(--ff-geliat-bold);
+  font-display: "swap"
+}
+
+.ff-geliat-l{
+  font-family: var(--ff-geliat-light);
   font-display: "swap"
 }
 

@@ -1,4 +1,4 @@
-import { Footer, Navbar, LinedBackground, ConsultationSection, FadingBackground } from '../components'
+import { Footer, Navbar, LinedBackground, ConsultationSection } from '../components'
 import { useEffect } from "react";
 const Contact = () => {
   useEffect(() => {
@@ -6,7 +6,6 @@ const Contact = () => {
   }, []);
   return (
     <>
-      <FadingBackground />
       <Navbar />
       <LinedBackground style={{marginTop: "10rem"}}>
         <ConsultationSection />

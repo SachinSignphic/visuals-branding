@@ -9,7 +9,7 @@ const Navbar = () => {
         <nav>
             <Link to='/' className="nav-logo">
                 <img src="/logo.svg" alt="Visuals Branding"/>
-                <h2 className="ff-gillroy-b fs-2l"><span>Visuals</span> <span>Branding</span></h2>
+                <h2 className="ff-geliat-l fs-2l"><span>Visuals</span> <span>Branding</span></h2>
             </Link>
             <div onClick={() => setIsOpen(!isOpen)} className="toggle-ham">
                 <span className={isOpen?"toggle-1 toggle-1-open":"toggle-1"}></span>

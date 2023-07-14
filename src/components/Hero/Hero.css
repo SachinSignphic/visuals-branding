@@ -1,43 +1,61 @@
-.hero{
+.hero {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     width: 100%;
-    min-height: 100vh; 
+    min-height: 100vh;
     padding: 4rem;
     gap: 3rem;
 }
 
-.hero h2 span{
-    color: var(--blk-color);
-    background: -webkit-linear-gradient(to left, #b75cff 0%, #ff70db 100%); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #b75cff 0%, #ff70db 100%);
-    -webkit-background-clip: text;
-    background-clip: text;
+.hero h2 {
+    font-size: 5rem;
+}
+
+.hero h2 span {
     color: transparent;
-    animation: shimmer 2s ease infinite;
+    background: rgb(255,112,219);
+    background: linear-gradient(90deg, rgba(255,112,219,1) 0%, #B75CFF 52%, rgba(255,112,219,1) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 300%;
+    background-position: -100% 0;
+    animation: shimmer 4s ease infinite;
 }
 
 @keyframes shimmer {
     0%{
-        background-size: 1rem;
+        background-position: -100% 0;
     }
-    70%{
-
-        background-size: 12rem;
+    50%{
+        background-position: 200% 0;
     }
     100%{
-        background-size: 12rem;
+        background-position: -100% 0;
     }
 }
 
+
 @media screen and (max-width: 768px) {
-    .hero{
+    .hero {
         padding: 1rem;
     }
 
-    .hero h2{
+    .hero h2 {
         text-align: center;
+        font-size:3rem;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1640px) {
+    .hero {
+        padding: 1rem;
+    }
+
+    .hero h2 {
+        text-align: center;
+        font-size: 4rem;
     }
 }

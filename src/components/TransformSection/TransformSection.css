@@ -37,7 +37,7 @@
     word-spacing: normal;
 }
 
-@media  screen and (max-width: 1366px) {
+@media  screen and (min-width: 769px) and (max-width: 1640px) {
     .transform{
         grid-template-rows: 1fr auto 1fr;
         grid-gap: 1rem;
@@ -60,7 +60,7 @@
         grid-gap: 6rem;
     }
     .transform-2 h1{
-        font-size: 3rem;
+        font-size: 3.2rem;
         line-height: 3rem;
         width: 100%;
     }
