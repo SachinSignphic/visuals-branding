@@ -38,7 +38,7 @@ const CarsouselCards = () => {
                     <SwiperSlide key={i} className="creator-slide">
                         <img src={creator.pic} loading="lazy" alt={creator.name} />
                         <div className="text-gradient">
-                            <h2 className="creator-name ff-gillroy-b sec-color">{creator.name}</h2>
+                            <h2 className="creator-name ff-geliat-l sec-color">{creator.name}</h2>
                         </div>
                     </SwiperSlide>)
                 })

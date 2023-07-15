@@ -29,7 +29,7 @@
     transition: transform 0.2s ease;
     width: 100%;
     text-align: center;
-    letter-spacing: 1px;
+    /* letter-spacing: 1px; */
 }
 
 .text-gradient{

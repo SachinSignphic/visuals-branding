@@ -16,7 +16,7 @@ const PromptSection = ({scrollTo, style}) => {
             <h1 className="ff-almeria-r sec-color">Ready to transform your <span className="blk-color">brand </span>?</h1>
             <ScrollButton scrollTo={scrollTo} style={style} className="scroll-button" />
         </div>
-        <hr />
+        <hr className="prompt-hr" />
         <div className="prompt-links">
             <Link className="prompt-link" to='/free-consultation' data-aos="fade-right" data-aos-duration="500">
                 <div>

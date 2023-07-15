@@ -109,10 +109,13 @@ nav > button{
 
 @media screen and (max-width: 768px){
     nav{
-        padding: 1rem;
+        padding: 0.6rem;
     }
     .nav-logo{
-        width: 80%;
+        /* margin-right: auto; */
+        /* gap: 1rem; */
+        justify-content: flex-start;
+        width: 90%;
     }
     .nav-logo img{
         width: 3rem;

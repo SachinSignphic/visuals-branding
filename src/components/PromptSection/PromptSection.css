@@ -15,7 +15,7 @@
     font-size: 5.7rem;
 }
 
-hr{
+.prompt-hr{
     border: none;
     height: 2px;
     background-color: var(--blk-color);

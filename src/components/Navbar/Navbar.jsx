@@ -17,15 +17,15 @@ const Navbar = () => {
                 {/* <span className="toggle-3"></span> */}
             </div>
             <div className="nav-links">
-                <Link to='/about#about' className="nav-link ff-gillroy-u fs-3s">About</Link>
-                <Link to='/portfolio' className="nav-link ff-gillroy-u fs-3s">Portfolio</Link>
+                <Link to='/about#about' className="nav-link ff-gillroy-r fs-3s">About</Link>
+                <Link to='/portfolio' className="nav-link ff-gillroy-r fs-3s">Portfolio</Link>
                 <Link to='/custom-service' className="nav-link ff-gillroy-b btn-secondary">Custom Service</Link>
                 <Link to='/contact' className="nav-link ff-gillroy-b btn-primary">Contact Us</Link>
             </div>
             
             <div className={isOpen? "nav-links-mobile nav-links-mobile-open":"nav-links-mobile"}>
-                <Link to='/about#about' className="nav-link ff-gillroy-u fs-3s">About</Link>
-                <Link to='/portfolio' className="nav-link ff-gillroy-u fs-3s">Portfolio</Link>
+                <Link to='/about#about' className="nav-link ff-gillroy-r fs-3s">About</Link>
+                <Link to='/portfolio' className="nav-link ff-gillroy-r fs-3s">Portfolio</Link>
                 <Link to='/custom-service' className="nav-link ff-gillroy-b btn-secondary">Custom Service</Link>
                 <Link to='/contact' className="nav-link ff-gillroy-b btn-primary">Contact Us</Link>
                 <img src="/logo.svg" alt="Visuals Branding"/>
